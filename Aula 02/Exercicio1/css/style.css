@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* background-image: url("../img/muitosdogs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+  background-image: linear-gradient(rgb(33, 71, 175), rgb(220,20,60));
+  /* background-color: rgb(220,20,60, 0.7); */
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  background-color: purple;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: purple;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+.content {
+  background-color: whitesmoke;
+  width: 95%;
+  margin: 30px;
+  padding: 20px;
+}
+
+.content__sobre {
+  width: 60%;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.dog__img {
+  width: 100%;
+  display: inline-block;
+  padding-right: 100px;
+  transform: scaleX(-1);
+}
+
+.content__img {
+  width: 35%;
+  display: inline-block;
+}
+
+.dog1 {
+  display: inline-block;
+  width: 30%;
+}
+
+.content__titulo2 {
+  width: 30%;
+}

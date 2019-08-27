@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <form action="#" class="form__geral">
+        <div class="campo__form">
+          <label for="nome-da-pessoa">Nome completo</label>
+          <input
+            class="form__input"
+            type="text"
+            name="nome-da-pessoa"
+            placeholder="Digite seu nome aqui"
+          />
+          <label for="endereco-email">E-mail</label>
+          <input
+            class="form__input"
+            type="text"
+            name="endereco-email"
+            placeholder="Digite seu e-mail"
+          />
+          <label for="senha">Senha</label>
+          <input
+            class="form__input"
+            type="password"
+            name="senha"
+            placeholder="Digite sua senha aqui!"
+          />
+        </div>
+        <div class="campo__form">
+          <label for="doces">Você gosta de doces?</label>
+          <input type="radio" name="doces" value="sim" /><span>Sim!</span>
+          <input type="radio" name="doces" value="nao" /><span>Não!</span>
+        </div>
+        <div class="campo__form">
+          <label for="opcao-doce">Qual o seu doce preferido?</label>
+          <input type="checkbox" />
+          <span>Bolo</span>
+          <input type="checkbox" />
+          <span>Brigadeiro</span>
+          <input type="checkbox" />
+          <span>Beijinho</span>
+          <input type="checkbox" />
+          <span>Barra de chocolate</span>
+          <input type="checkbox" />
+          <span>Sorvete</span>
+          <input type="checkbox" />
+          <span>Torta</span>
+          <input type="checkbox" />
+          <span>Brownie</span>
+        </div>
+        <div class="campo__form">
+          <label for="idade">Quantos anos você tem?</label>
+          <input type="number" id="" name="idade" min="1" max="100" />
+        </div>
+        <div class="campo__form">
+          <label for="regiao">De que região do Brasil você é?</label>
+          <select name="regiao">
+            <option value="regiao1">Norte</option>
+            <option value="regiao2">Nordeste</option>
+            <option value="regiao3">Centro-Oeste</option>
+            <option value="regiao4">Sudeste</option>
+            <option value="regiao5">Sul</option>
+          </select>
+        </div>
+        <a href="http://www.pudim.com.br/" target="_blank"
+          >Esqueci minha senha!</a
+        >
+        <button class="form__botao">Confirmo!</button>
+      </form>
+    </section>
+  </body>
+</html>

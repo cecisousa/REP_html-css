@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/retangulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #61139f;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+h2 {
+    color: #585858;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.box {
+    background-color: white;
+    width: 50%;
+    height: 750px;
+    margin: 20px 25%;
+    border-radius: 25px;
+}
+
+.foto-rihanna {
+    margin: 70px 0px 0px 35%;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.redes-sociais__icone {
+    width: 100px;
+}

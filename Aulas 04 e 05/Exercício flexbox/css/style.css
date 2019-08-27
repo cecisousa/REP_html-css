@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.grupo-div {
+    margin: 0 auto;
+    background-color: lightgray;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.primeira-div {
+    background-color: rgb(128, 0, 128);
+    width: 10%;
+    height: 35%;
+}
+
+.segunda-div {
+    background-color: rgb(75, 0, 130);
+    width: 10%;
+    height: 35%;
+}
+
+.terceira-div {
+    background-color: rgb(153, 50, 204);
+    width: 10%;
+    height: 35%;
+}
+
+
+
